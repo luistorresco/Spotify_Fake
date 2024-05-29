@@ -1,4 +1,5 @@
 # Spotify Fake
+<img width="921" alt="Screenshot 2024-05-29 182013" src="https://github.com/luistorresco/Spotify_fake/assets/114264579/2f699063-c6dc-4926-902a-f423323a3c73">
 
 Esta es una aplicación de ejemplo que utiliza la API de Spotify para obtener información de artistas, álbumes y canciones. Es una aplicación de React creada con Create React App.
 
