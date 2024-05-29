@@ -1,0 +1,20 @@
+.searchBox {
+  display: flex;
+  gap: 10px;
+  font-size: 56px;
+}
+
+.searchBox input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchBox button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

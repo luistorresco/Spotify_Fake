@@ -1,0 +1,8 @@
+.banner {
+  background: url("https://www.digiseller.ru/preview/956286/p1_3007675_80abca64.gif");
+  mask-image: linear-gradient(to bottom, #191414, #19141407);
+  padding: 10%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

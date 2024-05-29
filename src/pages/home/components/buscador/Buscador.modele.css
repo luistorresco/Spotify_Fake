@@ -1,0 +1,73 @@
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 56px;
+}
+
+.searchBox input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchBox button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resuldado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 7px 10px rgb(0, 0, 0);
+  width: 300px;
+  height: 420px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.booton {
+  color: #ffffff;
+  border: none;
+  background-color: #0f422b;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booton:hover {
+  background-color: #ffffff;
+  color: #0f422b;
+  font-weight: bolder;
+}
+
+.h3 {
+  max-height: 60px;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border: #0f422b;
+}
