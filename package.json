@@ -1,7 +1,6 @@
 {
   "name": "Spotify_Fake",
   "version": "1.1.0",
-  "homepage": "https://luistorresco.github.io/Spotify_Fake/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

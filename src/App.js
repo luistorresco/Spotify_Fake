@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 import Footer from "./pages/footer/Footer";
 
 import Header from "./pages/header/Header";

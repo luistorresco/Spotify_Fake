@@ -1,12 +1,9 @@
-
-
-
 async function ObtenerTokenSpotify() {
   //1. PREPARO (PA ONDE VOY?, A HACER QUE?, CON QUE DATOS?)
   const URL_TOKEN_SERVICE = "https://accounts.spotify.com/api/token";
   const METODO_HTTP = "POST";
-  const VITE_CLIENT_ID = process.env.CLIENT_ID;
-  const VITE_CLIENT_SECRET = process.env.CLIENT_SECRET;
+  const CLIENT_ID = "4de359057e48440288113b7de22f9a79";
+  const CLIENT_SECRET = "949f039b076a42a5a6c682ed5ed65083";
   const GRANT_TYPE = "client_credentials";
 
   const PETICION_TOKEN = {
@@ -14,7 +11,7 @@ async function ObtenerTokenSpotify() {
     headers: {
       "Content-type": "application/x-www-form-urlencoded",
     },
-    body: `grant_type=${GRANT_TYPE}&client_id=${VITE_CLIENT_ID}&client_secret=${VITE_CLIENT_SECRET}`,
+    body: `grant_type=${GRANT_TYPE}&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`,
   };
 
   //2. INCIAR LA COMUNICACIÓN E IR HASTA EL BACK CON LA PETICION
